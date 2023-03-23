@@ -1,0 +1,36 @@
+:root {
+  --color-primary: rgb(25, 48, 99);
+  --color-secondary: rgb(80, 156, 80);
+  --color-tertiary: rgb(255, 53, 91);
+  --color-gold: #ffbf03;
+  --color-gray: #808080;
+  --color-light-gold--1: #fdd166;
+  --color-light-gold--2: rgba(247, 209, 121, 0.4);
+  --color-light-gray: #ddd;
+  --color-light-dark: #504f4f;
+  --color-white: #fff;
+  --color-dark-white: #f6f6f6;
+
+  --color-primary-opacity--1: rgb(36, 68, 139);
+  --color-primary-opacity--2: #add8e6;
+  --color-secondary-opacity--1: #9df39d;
+  --color-secondary-opacity--2: #4abb7e;
+  --color-secondary-opacity--3: #90ee90;
+  --color-tertiary-opacity: rgb(247, 96, 124);
+
+  --gradient-primary: linear-gradient(
+    to bottom,
+    rgba(25, 48, 99, 0.8),
+    rgba(25, 48, 99, 0.6)
+  );
+  --gradient-secondary: linear-gradient(
+    to bottom,
+    rgba(145, 238, 145, 0.9),
+    rgba(145, 238, 145, 0.8)
+  );
+  --gradient-tertiary: linear-gradient(
+    to bottom,
+    rgba(255, 53, 91, 0.8),
+    rgba(255, 53, 91, 0.6)
+  );
+}

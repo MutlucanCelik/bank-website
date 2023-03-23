@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fırat Bank</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="icon.css" />
+    <link rel="shortcut icon" href="./img/badge.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/45489968c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__logo">
+        <a href="index.html"
+          ><img
+            src="./img/logo-no-background.png"
+            alt="logo"
+            class="header__logo-img"
+        /></a>
+      </div>
+      <div class="header__empty"></div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" id="main__why-us">Neden Biz</a></li>
+          <li class="nav__item">
+            <a href="#" id="main__advantage">Avantajlarımız</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" id="main__intermediate-part">Yardım Projeleri</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" id="main__campaigns">Kampanyalar</a>
+          </li>
+          <div id="btn-login" class="btn--login">
+            <i class="fa-regular fa-user login-icon"></i>
+            <span>Giriş</span>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main__head">
+        <div class="main__head-content">
+          <div class="main__head-left">
+            <div class="main__head-slogan">Yalnız Değilsiniz</div>
+            <div class="main__head-info">
+              <p class="main__head-cover-letter">
+                Fırat Bank A.Ş, Mutlucan Çelik tarafından 1998 yılında kurulan,
+                Vatandaşım Yalnız Değilsin sloganıyla yola çıkan, başvuru yapan
+                her Türkiye Cumhuriyeti Vataşı için yapılan gerekli araştırmalar
+                sonucunda kredi ihtiyacı bulunan Türkiye Cumhuriyeti
+                Vatandaşlarına %0 faizle kredi veren, Türkiye Cumhuriyeti
+                tarafındından desteklenen bir kamu bankasıdır.
+              </p>
+              <button class="btn btn--blue">
+                <span class="btn__span">Detaylı Bilgi</span>
+                <span class="btn__span">Detaylı Bilgi</span>
+              </button>
+            </div>
+          </div>
+          <div class="main__head-right">
+            <img src="./img/home.jpg" alt="" class="main__img" />
+          </div>
+        </div>
+        <div class="login-window hidden">
+          <div class="login-window__head">
+            <div class="login-window__head-conteiner">
+              <h4 class="login-window__header header-login">
+                <a href="#" class="login-window__head-btn">Giriş</a>
+              </h4>
+              <h4 class="login-window__header header-register">
+                <a href="#" class="login-window__head-btn btn-window-register"
+                  >Kayıt Ol</a
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="login-window__login">
+            <form class="login-window__form">
+              <div class="login-window__content-conteiner">
+                <div class="login-window__content">
+                  <label for="email" class="label">E-mail</label>
+                  <i class="fa-sharp fa-regular fa-at window-icon"></i>
+                  <input
+                    type="email"
+                    name="email"
+                    class="login-window__input"
+                    required
+                  />
+                </div>
+                <div class="login-window__content">
+                  <label for="password" class="label">Şifre</label>
+                  <i class="fa-solid fa-lock window-icon"></i>
+                  <input
+                    type="password"
+                    name="password"
+                    class="login-window__input"
+                    required
+                  />
+                </div>
+              </div>
+              <a href="#" class="login-window__forget-password"
+                >Şifremi Unuttum</a
+              >
+              <a href="login.html" class="btn btn--dark-green">Giriş</a>
+            </form>
+            <div class="login-widow__social-media-login">
+              <a href="#" class="login-window__card-link">
+                <span class="icon-google social-window-icon"></span>
+                <p>Google ile Giriş yap</p>
+              </a>
+
+              <a href="#" class="login-window__card-link">
+                <span class="icon-apple social-window-icon"></span>
+                <p>Apple ile Giriş yap</p>
+              </a>
+
+              <a href="#" class="login-window__card-link">
+                <span class="icon-facebook social-window-icon"></span>
+                <p>Facebook ile Giriş yap</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="login-window__register hidden">
+            <form class="login-window__form">
+              <div class="login-window__content">
+                <label for="email" class="label">E-mail</label>
+                <i class="fa-sharp fa-regular fa-at window-icon"></i>
+                <input
+                  type="email"
+                  name="email"
+                  class="login-window__input"
+                  required
+                />
+              </div>
+              <div class="login-window__content">
+                <label for="userName" class="label">Kullanıcı Adı</label>
+                <i class="fa-regular fa-user window-icon"></i>
+                <input
+                  type="text"
+                  name="userName"
+                  class="login-window__input"
+                  required
+                />
+              </div>
+              <div class="login-window__content">
+                <label for="password" class="label">Şifre</label>
+                <i class="fa-solid fa-lock window-icon"></i>
+                <input
+                  type="password"
+                  name="password"
+                  class="login-window__input"
+                  required
+                />
+              </div>
+              <button class="btn btn--dark-pink">Kayıt Ol</button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+        <a href="#" class="btn-home">
+          <i class="fa-solid fa-arrow-up btn-home__icon"></i>
+        </a>
+      </section>
+      <section class="section main__why-us">
+        <h2 class="main__why-us-head">Neden Biz</h2>
+        <div class="main__why-us-content">
+          <div class="main__why-us-left">
+            <ul class="main__why-us-list">
+              <li class="main__why-us-item"></li>
+              <li class="main__why-us-item">
+                <h3 class="main__why-us__header">
+                  Duruma Göre Aksiyon Alıyoruz
+                </h3>
+                <div class="main__why-us__content-conteiner">
+                  <span class="icon-appveyor main__why-us__icon"></span>
+                  <p class="main__why-us__content">
+                    Hazır çözümlere uygun sorunlar değil, sizin sorunlarınıza
+                    uygun çözümler arıyoruz.Bu nedenle herşeyden önce sizi
+                    dikkatle dinliyor, sorunlarınızı anlamaya çalışıyoruz.
+                  </p>
+                </div>
+              </li>
+              <li class="main__why-us-item"></li>
+              <li class="main__why-us-item">
+                <h3 class="main__why-us__header">Hızlı Çözümler Üretiyoruz</h3>
+                <div class="main__why-us__content-conteiner">
+                  <span class="icon-aventrix main__why-us__icon"></span>
+                  <p class="main__why-us__content">
+                    Karşılaşılan soruna en kısa sürede ulaşıp sorunun kaynağına
+                    inerek kökten bir çözüme çok kısabir sürede ulaşıyoruz.
+                  </p>
+                </div>
+              </li>
+              <li class="main__why-us-item"></li>
+            </ul>
+          </div>
+          <div class="line">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="main__why-us-right">
+            <ul class="main__why-us-list">
+              <li class="main__why-us-item">
+                <h3 class="main__why-us__header">Çözüm Odaklı İlerliyoruz</h3>
+
+                <div class="main__why-us__content-conteiner">
+                  <span class="icon-broadcom main__why-us__icon"></span>
+                  <p class="main__why-us__content">
+                    Sorunlara çözüm ararken, hep aynı değil farklı sektörlerden
+                    de transfer edilebilir deneyimleri arıyoruz. Böylece
+                    inovatif ve rekabetçi çözümler üretebiliyoruz.
+                  </p>
+                </div>
+              </li>
+              <li class="main__why-us-item"></li>
+              <li class="main__why-us-item">
+                <h3 class="main__why-us__header">
+                  Dinamik Ekip Arkadaşları ile Çalışıyoruz
+                </h3>
+
+                <div class="main__why-us__content-conteiner">
+                  <span class="icon-bandlab main__why-us__icon"></span>
+                  <p class="main__why-us__content">
+                    Araştırma ve geliştirmeye çok önem veriyoruz. İşletme
+                    hastalıklarının sürekli şekil değiştirdiğini biliyor,
+                    sürekli yeni ilaçlar peşinde koşuyoruz.
+                  </p>
+                </div>
+              </li>
+              <li class="main__why-us-item"></li>
+              <li class="main__why-us-item">
+                <h3 class="main__why-us__header">
+                  Tüm Sorumluluğu Üstleniyoruz
+                </h3>
+
+                <div class="main__why-us__content-conteiner">
+                  <span class="icon-buzzfeed main__why-us__icon"></span>
+                  <p class="main__why-us__content">
+                    Memnun olmadığınız bir hizmetinizi iptal veya iade etmek
+                    istediğinizde önünüze binbir madde şart koşul çıkarmıyoruz.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section main__advantage">
+        <h2 class="main__advantage-head">Avantajlarımız</h2>
+        <div class="card__conteiner">
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-shield-halved card__icon"></i>
+              <h1 class="card__header">Bilgi Güvenliği</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-money-bill-transfer card__icon"></i>
+              <h1 class="card__header">Uygun Transfer Ücreti</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-money-bill card__icon"></i>
+              <h1 class="card__header">Sıfır Faiz</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-infinity card__icon"></i>
+              <h1 class="card__header">7/24 İletişim</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-percent card__icon"></i>
+              <h1 class="card__header">Bol Kampanya</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <i class="fa-solid fa-face-smile-beam card__icon"></i>
+              <h1 class="card__header">Müşteri Memnuniyeti</h1>
+            </div>
+            <div class="card__content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              commodi cum accusantium excepturi ab esse repellat ea. Itaque,
+              voluptas dicta?
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section main__intermediate-part">
+        <h1 class="main__intermediate-part__header">
+          Sosyal Sorumluluk Projeleri
+        </h1>
+        <div class="main__intermediate-part__content-conteiner">
+          <div class="main__intermediate-part__content">
+            <h3 class="main__intermediate-part__content-top">
+              İdlip Yardım Kampanyası
+            </h3>
+            <div class="main__intermediate-part__content-bot">
+              <img
+                src="./img/kampanya_suriye.jpeg"
+                alt=""
+                class="main__intermediate-part__img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                voluptas recusandae, reiciendis corrupti, quo nemo minus eos
+                inventore adipisci voluptatem, officiis sint quasi libero. Nemo,
+                debitis adipisci. Impedit, explicabo corrupti!
+              </p>
+            </div>
+            <button class="btn btn--blue">
+              <span class="btn__span">Detaylı Bilgi</span>
+              <span class="btn__span">Detaylı Bilgi</span>
+            </button>
+          </div>
+          <div class="main__intermediate-part__content">
+            <h3 class="main__intermediate-part__content-top">
+              Yangın Sel ve Afet Yardım Kampanyası
+            </h3>
+            <div class="main__intermediate-part__content-bot">
+              <img
+                src="./img/AFAD_KAMPANYA_BB.jpg"
+                alt=""
+                class="main__intermediate-part__img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                voluptas recusandae, reiciendis corrupti, quo nemo minus eos
+                inventore adipisci voluptatem, officiis sint quasi libero. Nemo,
+                debitis adipisci. Impedit, explicabo corrupti!
+              </p>
+            </div>
+            <button class="btn btn--blue">
+              <span class="btn__span">Detaylı Bilgi</span>
+              <span class="btn__span">Detaylı Bilgi</span>
+            </button>
+          </div>
+          <div class="main__intermediate-part__content">
+            <h3 class="main__intermediate-part__content-top">
+              Deprem Bağışları
+            </h3>
+            <div class="main__intermediate-part__content-bot">
+              <img
+                src="./img/bagis-deprem.jpeg"
+                alt=""
+                class="main__intermediate-part__img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                voluptas recusandae, reiciendis corrupti, quo nemo minus eos
+                inventore adipisci voluptatem, officiis sint quasi libero. Nemo,
+                debitis adipisci. Impedit, explicabo corrupti!
+              </p>
+            </div>
+            <button class="btn btn--blue">
+              <span class="btn__span">Detaylı Bilgi</span>
+              <span class="btn__span">Detaylı Bilgi</span>
+            </button>
+          </div>
+          <div class="main__intermediate-part__content">
+            <h3 class="main__intermediate-part__content-top">
+              Sudan Yardım Kampanyası
+            </h3>
+            <div class="main__intermediate-part__content-bot">
+              <img
+                src="./img/sudan-afis.jpg"
+                alt=""
+                class="main__intermediate-part__img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                voluptas recusandae, reiciendis corrupti, quo nemo minus eos
+                inventore adipisci voluptatem, officiis sint quasi libero. Nemo,
+                debitis adipisci. Impedit, explicabo corrupti!
+              </p>
+            </div>
+            <button class="btn btn--blue">
+              <span class="btn__span">Detaylı Bilgi</span>
+              <span class="btn__span">Detaylı Bilgi</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section main__campaigns">
+        <h1 class="main__campaigns-head">Kampanyalar</h1>
+        <div class="main__campaigns-card-conteiner">
+          <div class="main__campaigns-card">
+            <div class="main__campaigns-card-top">
+              <p class="main__campaigns-card-top-content">
+                12 Ay Vadeli İhtiyaç Kredisi <br />
+                <span class="main__campaigns-money">20.000 ₺</span>
+              </p>
+            </div>
+            <div class="main__campaigns-card-bot">
+              <ul class="main__campaigns-list">
+                <li class="main__campaigns-item">%0 faizli ve masrafsız</li>
+                <li class="main__campaigns-item">20.000 ₺ Kredi Fırsatı</li>
+                <li class="main__campaigns-item">
+                  Kredi Kartı harcamalarınıza bonus fırsatı!
+                </li>
+                <li class="main__campaigns-item">Kişiye özel yapılandırma</li>
+              </ul>
+              <button class="btn btn--pink">
+                <span class="btn__span">Hemen Başvur</span>
+                <span class="btn__span">Hemen Başvur</span>
+              </button>
+            </div>
+          </div>
+          <div class="main__campaigns-card">
+            <div class="main__campaigns-card-top">
+              <p class="main__campaigns-card-top-content">
+                Yeni Müşteriye Özel <br />
+                <span class="main__campaigns-money">10.000 ₺</span>
+              </p>
+            </div>
+            <div class="badge">
+              <img src="./img/badge.png" alt="badge" class="badge__img" />
+              <span class="badge__content">POPÜLER</span>
+            </div>
+            <div class="main__campaigns-card-bot">
+              <ul class="main__campaigns-list">
+                <li class="main__campaigns-item">%0 faizli ve masrafsız</li>
+                <li class="main__campaigns-item">10.000 ₺ Kredi Fırsatı</li>
+                <li class="main__campaigns-item">
+                  Kredi Kartı harcamalarınıza bonus fırsatı!
+                </li>
+                <li class="main__campaigns-item">Kişiye özel yapılandırma</li>
+              </ul>
+              <button class="btn btn--green">
+                <span class="btn__span">Hemen Başvur</span>
+                <span class="btn__span">Hemen Başvur</span>
+              </button>
+            </div>
+          </div>
+          <div class="main__campaigns-card">
+            <div class="main__campaigns-card-top">
+              <p class="main__campaigns-card-top-content">
+                İşletmeye Özel <br />
+                <span class="main__campaigns-money">100.000 ₺</span>
+              </p>
+            </div>
+            <div class="main__campaigns-card-bot">
+              <ul class="main__campaigns-list">
+                <li class="main__campaigns-item">%0 faizli ve masrafsız</li>
+                <li class="main__campaigns-item">100.000 ₺ Kredi Fırsatı</li>
+                <li class="main__campaigns-item">
+                  Kredi Kartı harcamalarınıza bonus fırsatı!
+                </li>
+                <li class="main__campaigns-item">Kişiye özel yapılandırma</li>
+              </ul>
+              <button class="btn btn--blue">
+                <span class="btn__span">Hemen Başvur</span>
+                <span class="btn__span">Hemen Başvur</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__top-conteiner">
+        <div class="about footer__top-content-conteiner">
+          <div class="footer__top-content">
+            <h4 class="footer__top-head">Fırat Bank Hakkında</h4>
+            <ul class="footer__top-list">
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Bankacılık Akademisi</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Sosyal Sorumluluk</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Kültür ve Sanat</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">İnsan Kaynakları</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Sürdürebilirlik</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Yatırımcı İlişkileri</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="empty"></div>
+        <div class="products footer__top-content-conteiner">
+          <div class="footer__top-content">
+            <h4 class="footer__top-head">Ürünlerimiz</h4>
+            <ul class="footer__top-list">
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link"
+                  >Bireysel İhtiyaç Kredisi</a
+                >
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Kredi Kartı</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Banka Kartı</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Konut Kredisi</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Taşıt Kredisi</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#" class="footer__top-link">Vadeli Mevduat</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="empty"></div>
+        <div class="contact footer__top-content-conteiner">
+          <div class="footer__top-content">
+            <h4 class="footer__top-head">İletişim</h4>
+            <ul class="footer__top-list">
+              <li class="footer__top-item">
+                <a href="#">444 X 444</a>
+              </li>
+              <li class="footer__top-item">
+                <a href="#">444 Y 444</a>
+              </li>
+              <div class="social-media">
+                <h3 class="social-media__head">Bizi Takip Edin</h3>
+                <ul class="social-media__list">
+                  <li>
+                    <a href="#" class="social-media__link">
+                      <i class="fa-brands fa-twitter social-media__icon"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-media__link">
+                      <i class="fa-brands fa-facebook social-media__icon"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-media__link">
+                      <i class="fa-brands fa-instagram social-media__icon"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-media__link">
+                      <i
+                        class="fa-brands fa-linkedin-in social-media__icon"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-media__link">
+                      <i class="fa-brands fa-youtube social-media__icon"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bot-content">
+        <p>&copy; Fırat Bank A.Ş</p>
+        <ul class="footer__bot-content-list">
+          <li><a href="#">Kişisel Verilerin Korunması</a></li>
+          <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="#">Gizlilik</a></li>
+          <li><a href="#">Yasal Uyarı</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
