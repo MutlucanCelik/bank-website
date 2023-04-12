@@ -1,0 +1,138 @@
+/* BELOW 1344px (Smaller desktops) */
+/* BELOW 1200px (Landscape Tablets) */
+/* BELOW 944px (Tablets) */
+/* BELOW 704px (Smaller tablets) */
+/* BELOW 544px (Phones) */
+
+@media only screen and (min-width: 1825px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+  .main__img {
+    width: 100%;
+    height: 60%;
+  }
+  .main__advantage {
+    height: 85rem;
+  }
+  .card {
+    flex: 0 40%;
+  }
+
+  .badge__img {
+    transform: scale(0.8);
+  }
+  .badge__content {
+    left: 25%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+  .main__head {
+    height: 65rem;
+  }
+  .main__head-right {
+    flex: 0 30%;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img {
+    width: 80%;
+    height: 60%;
+  }
+  .main__head-left {
+    order: 1;
+    padding-bottom: 30rem;
+    text-align: center;
+  }
+  .main__head-content {
+    flex-direction: column;
+  }
+
+  .h2 {
+    font-size: 2.8rem;
+  }
+  .main__why-us {
+    height: 100rem;
+  }
+  .main__why-us-item {
+    padding: 0;
+  }
+  .main__why-us__icon {
+    font-size: 5rem;
+  }
+  .main__why-us__header {
+    text-align: start;
+  }
+  .main__why-us__content {
+    height: 20rem;
+    text-align: start;
+  }
+  .main__advantage {
+    height: 155rem;
+  }
+  .card {
+    flex: 0 80%;
+  }
+  .main__intermediate-part {
+    padding-top: 5rem;
+    height: 122rem;
+  }
+  .main__intermediate-part__content-conteiner {
+    justify-content: center;
+  }
+  .main__intermediate-part__content {
+    flex: 0 80%;
+    height: 22rem;
+  }
+  .main__campaigns {
+    height: 220rem;
+  }
+  .main__campaigns-head {
+    font-size: 4rem;
+  }
+  .main__campaigns-card:nth-child(2) {
+    transform: scale(1);
+  }
+  .main__campaigns-card {
+    flex: 0 75%;
+    height: 60rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .main__campaigns-card-top-content {
+    font-size: 2rem;
+  }
+  .badge {
+    position: absolute;
+    right: 13%;
+    top: 22%;
+  }
+  .badge__img {
+    transform: scale(0.8);
+  }
+
+  .badge__content {
+    font-size: 1rem;
+  }
+  .footer__bot-content {
+    font-size: 1rem;
+    flex: 0 30%;
+  }
+  .footer__bot-content-list {
+    flex: 0 80%;
+    justify-content: space-evenly;
+  }
+}

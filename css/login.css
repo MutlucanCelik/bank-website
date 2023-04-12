@@ -1,6 +1,6 @@
-@import "base.css";
-@import "colors.css";
-@import "buttons.css";
+@import "./base/base.css";
+@import "./base/colors.css";
+@import "./base/buttons.css";
 
 html {
   font-family: "Roboto", sans-serif;
